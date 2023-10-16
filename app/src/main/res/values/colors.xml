@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bgpink">#ffc2b8</color>
+    <color name="background">#fce0dc</color>
+    <color name="bggrid">#ebdcfc</color>
+    <color name="hotpink">#eb346e</color>
+    <color name="purple">#eca6ff</color>
+</resources>

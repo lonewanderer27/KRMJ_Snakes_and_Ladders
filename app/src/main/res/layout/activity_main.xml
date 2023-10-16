@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".KR_SnL_MainActivity"
+    android:orientation="vertical">
+
+    <GridView
+        android:id="@+id/table"
+        android:numColumns="5"
+        android:background="@color/bggrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="4dp"
+        android:horizontalSpacing="4dp"
+        tools:ignore="MissingConstraints">
+    </GridView>
+
+    <LinearLayout
+        android:background="@color/bgpink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="3"
+            android:id="@+id/dice"
+            android:src="@drawable/six"
+            android:layout_width="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/rollBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROLL"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                />
+            <Button
+                android:id="@+id/resetBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESET"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
