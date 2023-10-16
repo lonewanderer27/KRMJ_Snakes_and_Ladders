@@ -138,7 +138,7 @@ class KR_SnL_MainActivity : AppCompatActivity() {
         // subtract the excess from the coorentPosition
         if (coorentPoosition > maxValue) {
             val excess = coorentPoosition - maxValue
-            coorentPoosition -= excess
+            coorentPoosition = maxValue - excess
         }
         Log.i("Coorent Position", coorentPoosition.toString())
 
